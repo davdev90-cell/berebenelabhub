@@ -1,5 +1,5 @@
 
-const CACHE = 'berebenehub-v9-5-1';
+const CACHE = 'berebenehub-v9-5-1a';
 const ASSETS = [
   './',
   './index.html',
