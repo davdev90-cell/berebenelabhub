@@ -1,0 +1,1 @@
+export const db=new Dexie('berebenelab_mixology_v2'); db.version(1).stores({recipes:'++id, name, tags'});

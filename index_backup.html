@@ -1,0 +1,30 @@
+<!doctype html><html lang="it"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BereBeneLab — Mixology Pro v2</title><link rel="manifest" href="manifest.json"/>
+<style>
+:root{--n1:#d64b1a;--n2:#7a0f0f;--bg:#0f0a09;--ink:#fff;--card:rgba(255,255,255,.06);--stroke:rgba(255,255,255,.15);--pill:rgba(255,255,255,.15)}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;
+background:radial-gradient(900px 600px at 90% -10%, rgba(255,120,0,.25), transparent 60%),
+           radial-gradient(800px 500px at -10% 40%, rgba(160,20,20,.35), transparent 60%),
+           linear-gradient(135deg,#1b0f0d,#391512 40%,#7a0f0f 70%,#d64b1a);background-attachment:fixed}
+header{position:sticky;top:0;z-index:10;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,.2));border-bottom:1px solid var(--stroke);backdrop-filter:blur(8px)}
+.wrap{max-width:1280px;margin:0 auto;padding:14px 18px}.brand{display:flex;gap:12px;align-items:center}
+.brand img{width:28px;height:28px;border-radius:6px}.brand h1{margin:0;font-size:20px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+nav a{padding:8px 12px;border:1px solid var(--stroke);background:var(--pill);border-radius:999px;color:#fff;text-decoration:none}
+nav a.active{background:linear-gradient(180deg,var(--n1),var(--n2));border-color:transparent}
+main{max-width:1280px;margin:0 auto;padding:18px}
+.card{border:1px solid var(--stroke);border-radius:16px;background:var(--card);backdrop-filter:blur(6px);padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.grid{display:grid;gap:12px}.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:1000px){.g2,.g3{grid-template-columns:1fr}}
+input,select,textarea{width:100%;padding:10px;border-radius:10px;border:1px solid var(--stroke);background:rgba(0,0,0,.25);color:#fff}
+button{padding:10px 14px;border-radius:12px;border:1px solid var(--stroke);background:linear-gradient(180deg,#ffb185,#ff7a45);color:#2b120a;font-weight:700;cursor:pointer}
+table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--stroke);padding:8px}th{background:rgba(255,255,255,.06);text-align:left}td.num{text-align:right}
+.muted{opacity:.85}
+</style></head><body>
+<header><div class="wrap"><div class="brand"><img src="assets/logo.png" alt="logo"/><h1>BereBeneLab — Mixology Pro v2</h1></div><nav id="nav"></nav></div></header>
+<main id="app"></main>
+<script src="https://cdn.jsdelivr.net/npm/dexie@3.2.7/dist/dexie.min.js"></script>
+<script type="module" src="./src/app.js"></script>
+<script>if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js'));}</script>
+</body></html>
