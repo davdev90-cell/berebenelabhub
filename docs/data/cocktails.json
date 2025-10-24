@@ -1,0 +1,2304 @@
+[
+  {
+    "name": "Old Fashioned",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build, stir with ice",
+    "garnish": "Orange zest, cherry (opt)",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "Bourbon or Rye"
+      },
+      {
+        "qty": "1",
+        "item": "Sugar cube"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Angostura bitters"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Water"
+      }
+    ]
+  },
+  {
+    "name": "Negroni",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin",
+      "Aperitivo"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build over ice, stir",
+    "garnish": "Orange slice",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Campari"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Sweet vermouth"
+      }
+    ]
+  },
+  {
+    "name": "Dry Martini",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir with ice, strain",
+    "garnish": "Lemon twist or olive",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Dry vermouth"
+      }
+    ]
+  },
+  {
+    "name": "Daiquiri",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Coupe",
+    "method": "Shake, fine strain",
+    "garnish": "Lime wheel",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "White rum"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Simple syrup"
+      }
+    ]
+  },
+  {
+    "name": "Margarita",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Tequila"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, strain (salt rim)",
+    "garnish": "Lime wheel, salt rim",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Tequila blanco"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Triple sec"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lime juice"
+      }
+    ]
+  },
+  {
+    "name": "Whiskey Sour",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Shake (dry+wet if egg white), strain",
+    "garnish": "Orange slice, cherry",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Bourbon"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "optional",
+        "item": "Egg white"
+      }
+    ]
+  },
+  {
+    "name": "Manhattan",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir, strain",
+    "garnish": "Cherry",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Rye or Bourbon"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Angostura bitters"
+      }
+    ]
+  },
+  {
+    "name": "Americano",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Aperitivo",
+      "Wine"
+    ],
+    "glass": "Highball",
+    "method": "Build over ice, top with soda",
+    "garnish": "Orange slice",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Campari"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "Top",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "Boulevardier",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Whisky",
+      "Aperitivo"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Stir, strain over ice",
+    "garnish": "Orange zest",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Bourbon or Rye"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Campari"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Sweet vermouth"
+      }
+    ]
+  },
+  {
+    "name": "Sazerac",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Rye"
+    ],
+    "glass": "Old Fashioned (chilled)",
+    "method": "Stir, absinthe rinse",
+    "garnish": "Lemon zest",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Rye whiskey"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Peychaud's bitters"
+      },
+      {
+        "qty": "Rinse",
+        "item": "Absinthe"
+      }
+    ]
+  },
+  {
+    "name": "Aviation",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, strain",
+    "garnish": "Cherry",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Maraschino liqueur"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lemon juice"
+      }
+    ]
+  },
+  {
+    "name": "Clover Club",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake (dry+wet), strain",
+    "garnish": "Raspberry",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Raspberry syrup"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "optional",
+        "item": "Egg white"
+      }
+    ]
+  },
+  {
+    "name": "French 75",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin",
+      "Wine"
+    ],
+    "glass": "Flute",
+    "method": "Shake base, top with Champagne",
+    "garnish": "Lemon twist",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "Top",
+        "item": "Champagne"
+      }
+    ]
+  },
+  {
+    "name": "Tom Collins",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Highball",
+    "method": "Build, stir lightly",
+    "garnish": "Lemon slice, cherry",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "Top",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "Martinez",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir, strain",
+    "garnish": "Lemon zest",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Old Tom gin"
+      },
+      {
+        "qty": "45 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "1 barspoon",
+        "item": "Maraschino"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Bitters"
+      }
+    ]
+  },
+  {
+    "name": "Rob Roy",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Scotch"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir, strain",
+    "garnish": "Cherry or lemon twist",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Scotch whisky"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Angostura bitters"
+      }
+    ]
+  },
+  {
+    "name": "Vieux Carré",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Rye",
+      "Cognac"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Stir, strain over ice",
+    "garnish": "Lemon twist",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Rye whiskey"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Cognac"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "1 barspoon",
+        "item": "Bénédictine"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Peychaud's/Angostura"
+      }
+    ]
+  },
+  {
+    "name": "Bellini",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Wine"
+    ],
+    "glass": "Flute",
+    "method": "Build, gentle stir",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "100 ml",
+        "item": "Prosecco"
+      },
+      {
+        "qty": "50 ml",
+        "item": "White peach purée"
+      }
+    ]
+  },
+  {
+    "name": "Mimosa",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Wine"
+    ],
+    "glass": "Flute",
+    "method": "Build",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "75 ml",
+        "item": "Champagne"
+      },
+      {
+        "qty": "75 ml",
+        "item": "Orange juice"
+      }
+    ]
+  },
+  {
+    "name": "Spritz Veneziano",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Aperitivo",
+      "Wine"
+    ],
+    "glass": "Wine glass",
+    "method": "Build over ice",
+    "garnish": "Orange slice",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "Prosecco"
+      },
+      {
+        "qty": "40 ml",
+        "item": "Aperol"
+      },
+      {
+        "qty": "Splash",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "Caipirinha",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Muddle, build",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "Cachaça"
+      },
+      {
+        "qty": "1",
+        "item": "Lime (cut)"
+      },
+      {
+        "qty": "2 tsp",
+        "item": "Sugar"
+      }
+    ]
+  },
+  {
+    "name": "Mojito",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Highball",
+    "method": "Muddle mint lightly, build",
+    "garnish": "Mint sprig",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "White rum"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "12 ml",
+        "item": "Sugar syrup"
+      },
+      {
+        "qty": "Top",
+        "item": "Soda water"
+      },
+      {
+        "qty": "8-10",
+        "item": "Mint leaves"
+      }
+    ]
+  },
+  {
+    "name": "Cuba Libre",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Highball",
+    "method": "Build over ice",
+    "garnish": "Lime wedge",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Rum"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "Top",
+        "item": "Cola"
+      }
+    ]
+  },
+  {
+    "name": "Pisco Sour",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Pisco"
+    ],
+    "glass": "Coupe",
+    "method": "Dry+wet shake, strain",
+    "garnish": "Angostura drops",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Pisco"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "1",
+        "item": "Egg white"
+      }
+    ]
+  },
+  {
+    "name": "Mai Tai",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Shake, strain over crushed ice",
+    "garnish": "Mint, lime shell",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Aged rum"
+      },
+      {
+        "qty": "20 ml",
+        "item": "White rum"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Orange curaçao"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Orgeat"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lime juice"
+      }
+    ]
+  },
+  {
+    "name": "Singapore Sling",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Highball",
+    "method": "Shake, top soda",
+    "garnish": "Cherry, pineapple",
+    "ingredients": [
+      {
+        "qty": "30 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Cherry liqueur"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Bénédictine"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Cointreau"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Grenadine"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "80 ml",
+        "item": "Pineapple juice"
+      },
+      {
+        "qty": "1 dash",
+        "item": "Bitters"
+      }
+    ]
+  },
+  {
+    "name": "Long Island Iced Tea",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka",
+      "Tequila",
+      "Rum",
+      "Gin"
+    ],
+    "glass": "Highball",
+    "method": "Build, top cola",
+    "garnish": "Lemon wedge",
+    "ingredients": [
+      {
+        "qty": "15 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Tequila"
+      },
+      {
+        "qty": "15 ml",
+        "item": "White rum"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Triple sec"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "Top",
+        "item": "Cola"
+      }
+    ]
+  },
+  {
+    "name": "Moscow Mule",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Copper mug",
+    "method": "Build",
+    "garnish": "Lime wedge",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "Top",
+        "item": "Ginger beer"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Mary",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Highball",
+    "method": "Roll, don’t shake",
+    "garnish": "Celery, lemon",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "90 ml",
+        "item": "Tomato juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "2 dashes",
+        "item": "Worcestershire"
+      },
+      {
+        "qty": "Hot sauce, salt, pepper",
+        "item": "to taste"
+      }
+    ]
+  },
+  {
+    "name": "Espresso Martini",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Cocktail",
+    "method": "Hard shake, strain",
+    "garnish": "3 coffee beans",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Coffee liqueur"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Fresh espresso"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Sugar syrup"
+      }
+    ]
+  },
+  {
+    "name": "Cosmopolitan",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, strain",
+    "garnish": "Orange zest",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Vodka citron"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Triple sec"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Cranberry juice"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Lime juice"
+      }
+    ]
+  },
+  {
+    "name": "Gin Fizz",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Highball",
+    "method": "Shake, top soda",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Simple syrup"
+      },
+      {
+        "qty": "Top",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "Ramos Gin Fizz",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Highball",
+    "method": "Long shake, top soda",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Cream"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Sugar syrup"
+      },
+      {
+        "qty": "3 dashes",
+        "item": "Orange flower water"
+      },
+      {
+        "qty": "1",
+        "item": "Egg white"
+      },
+      {
+        "qty": "Top",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "White Lady",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, strain",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Triple sec"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lemon juice"
+      }
+    ]
+  },
+  {
+    "name": "Bramble",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Old Fashioned (crushed ice)",
+    "method": "Build, lace crème de mûre",
+    "garnish": "Lemon slice, blackberry",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Sugar syrup"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Crème de mûre"
+      }
+    ]
+  },
+  {
+    "name": "Black Russian",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Coffee liqueur"
+      }
+    ]
+  },
+  {
+    "name": "White Russian",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build over ice, float cream",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Coffee liqueur"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Cream"
+      }
+    ]
+  },
+  {
+    "name": "Tequila Sunrise",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Tequila"
+    ],
+    "glass": "Highball",
+    "method": "Build, sink grenadine",
+    "garnish": "Orange slice, cherry",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Tequila"
+      },
+      {
+        "qty": "90 ml",
+        "item": "Orange juice"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Grenadine"
+      }
+    ]
+  },
+  {
+    "name": "Sea Breeze",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lime wedge",
+    "ingredients": [
+      {
+        "qty": "40 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "60 ml",
+        "item": "Cranberry juice"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Grapefruit juice"
+      }
+    ]
+  },
+  {
+    "name": "Harvey Wallbanger",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Highball",
+    "method": "Build, float Galliano",
+    "garnish": "Orange slice",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Vodka"
+      },
+      {
+        "qty": "90 ml",
+        "item": "Orange juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Galliano"
+      }
+    ]
+  },
+  {
+    "name": "Godfather",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build over ice",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "35 ml",
+        "item": "Scotch whisky"
+      },
+      {
+        "qty": "35 ml",
+        "item": "Amaretto"
+      }
+    ]
+  },
+  {
+    "name": "Rusty Nail",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Scotch"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Build over ice, stir",
+    "garnish": "Lemon zest",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Scotch whisky"
+      },
+      {
+        "qty": "25 ml",
+        "item": "Drambuie"
+      }
+    ]
+  },
+  {
+    "name": "Last Word",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, strain",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "22.5 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "22.5 ml",
+        "item": "Green Chartreuse"
+      },
+      {
+        "qty": "22.5 ml",
+        "item": "Maraschino"
+      },
+      {
+        "qty": "22.5 ml",
+        "item": "Lime juice"
+      }
+    ]
+  },
+  {
+    "name": "Corpse Reviver #2",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake, absinthe rinse",
+    "garnish": "Orange zest",
+    "ingredients": [
+      {
+        "qty": "20 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Cointreau"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lillet Blanc"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lemon juice"
+      },
+      {
+        "qty": "Rinse",
+        "item": "Absinthe"
+      }
+    ]
+  },
+  {
+    "name": "Hanky Panky",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Stir, strain",
+    "garnish": "Orange twist",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Gin"
+      },
+      {
+        "qty": "45 ml",
+        "item": "Sweet vermouth"
+      },
+      {
+        "qty": "1 barspoon",
+        "item": "Fernet-Branca"
+      }
+    ]
+  },
+  {
+    "name": "Piña Colada",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Hurricane",
+    "method": "Blend or shake with crushed ice",
+    "garnish": "Pineapple, cherry",
+    "ingredients": [
+      {
+        "qty": "50 ml",
+        "item": "White rum"
+      },
+      {
+        "qty": "30 ml",
+        "item": "Coconut cream"
+      },
+      {
+        "qty": "50 ml",
+        "item": "Pineapple juice"
+      }
+    ]
+  },
+  {
+    "name": "Planter's Punch",
+    "iba": true,
+    "category": "Unforgettables",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Highball",
+    "method": "Shake, strain over ice",
+    "garnish": "Mint, citrus",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Dark rum"
+      },
+      {
+        "qty": "35 ml",
+        "item": "Orange juice"
+      },
+      {
+        "qty": "35 ml",
+        "item": "Pineapple juice"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "10 ml",
+        "item": "Grenadine"
+      },
+      {
+        "qty": "Dash",
+        "item": "Angostura bitters"
+      }
+    ]
+  },
+  {
+    "name": "Jungle Bird",
+    "iba": true,
+    "category": "Contemporary Classics",
+    "base": [
+      "Rum",
+      "Aperitivo"
+    ],
+    "glass": "Old Fashioned",
+    "method": "Shake, strain over ice",
+    "garnish": "Pineapple wedge",
+    "ingredients": [
+      {
+        "qty": "45 ml",
+        "item": "Dark rum"
+      },
+      {
+        "qty": "20 ml",
+        "item": "Campari"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Lime juice"
+      },
+      {
+        "qty": "15 ml",
+        "item": "Sugar syrup"
+      },
+      {
+        "qty": "45 ml",
+        "item": "Pineapple juice"
+      }
+    ]
+  },
+  {
+    "name": "Aperol Spritz",
+    "iba": false,
+    "category": "Popular",
+    "base": [
+      "Aperitivo",
+      "Wine"
+    ],
+    "glass": "Wine glass",
+    "method": "Build over ice",
+    "garnish": "Orange slice",
+    "ingredients": [
+      {
+        "qty": "60 ml",
+        "item": "Prosecco"
+      },
+      {
+        "qty": "60 ml",
+        "item": "Aperol"
+      },
+      {
+        "qty": "Splash",
+        "item": "Soda water"
+      }
+    ]
+  },
+  {
+    "name": "Alexander",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Brandy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Between the Sheets",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Brandy Crusta",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Brandy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Grasshopper",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Harvard",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Sidecar",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Añejo Highball",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "B-52",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Kamikaze",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Irish Coffee",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Mint Julep",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Paloma",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Tequila"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Paper Plane",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Penicillin",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Bamboo",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Adonis",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "El Presidente",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Hemingway Daiquiri",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Vodka Martini",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Gimlet",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Bee's Knees",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Brown Derby",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Boulevardier (Variation Rye)",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Caipiroska",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Cable Car",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "French Martini",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Godmother",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Kir",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Kir Royal",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "New York Sour",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Pegu Club",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Pink Lady",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Porto Flip",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Screwdriver",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Vodka"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Sex on the Beach",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Snakebite and Black",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Tequila Old Fashioned",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Vesper",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Ward Eight",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Zombie",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Rum Old Fashioned",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Rum"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Amaretto Sour",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Whisky"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Gin Basil Smash",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Gin"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Palmetto",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Canchanchara",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Tommy's Margarita",
+    "iba": true,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Clover Club (Raspberry Syrup)",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Brandy Alexander",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Brandy"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "White Lady (Alt)",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Suffering Bastard",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  },
+  {
+    "name": "Fog Cutter",
+    "iba": false,
+    "category": "Classic",
+    "base": [
+      "Aperitivo"
+    ],
+    "glass": "Cocktail",
+    "method": "Shake or stir as appropriate",
+    "garnish": "—",
+    "ingredients": [
+      {
+        "qty": "—",
+        "item": "See note"
+      }
+    ],
+    "note": "Segnaposto rapido. Aggiorna quantità secondo la tua ricetta di casa."
+  }
+]

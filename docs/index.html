@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BereBeneLab – Mixology Calculators + Recipes</title>
+  <meta name="description" content="BereBeneLab: calcolatori per bar e mixology (ABV, Brix, costi) + ricettario (100 cocktail). Offline‑ready." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>BereBeneLab</h1>
+    <p class="tagline">All‑in‑one mixology calculators + recipes</p>
+  </header>
+
+  <nav class="container tabs" role="tablist" aria-label="Sezioni">
+    <button class="tab active" data-tab="abv">ABV Dilution</button>
+    <button class="tab" data-tab="target">Target ABV (blend)</button>
+    <button class="tab" data-tab="batch">Batching</button>
+    <button class="tab" data-tab="cost">Cost per Drink</button>
+    <button class="tab" data-tab="ice">Ice Dilution</button>
+    <button class="tab" data-tab="brix">Brix ↔︎ Sugar</button>
+    <button class="tab" data-tab="recipes">Ricette (100)</button>
+  </nav>
+
+  <main class="container">
+    <!-- ABV Dilution -->
+    <section id="tab-abv" class="tabpanel active">
+      <h2>ABV Dilution</h2>
+      <div class="grid">
+        <label>Initial Volume (mL)
+          <input id="abv_vi" type="number" min="0" step="1" placeholder="es. 700" />
+        </label>
+        <label>Initial ABV (%)
+          <input id="abv_ai" type="number" min="0" max="96" step="0.1" placeholder="es. 40" />
+        </label>
+        <label>Target ABV (%)
+          <input id="abv_at" type="number" min="0" max="96" step="0.1" placeholder="es. 20" />
+        </label>
+      </div>
+      <div class="actions">
+        <button id="abv_calc">Calculate</button>
+        <button class="secondary" id="abv_reset">Reset</button>
+      </div>
+      <div id="abv_out" class="output" aria-live="polite"></div>
+      <details class="note"><summary>Formula</summary>
+        <p>H2O = <code>Vi × (Ai/At − 1)</code> (per At &lt; Ai).</p>
+      </details>
+    </section>
+
+    <!-- Target ABV (blend) -->
+    <section id="tab-target" class="tabpanel">
+      <h2>Target ABV (Blend di 2 liquidi)</h2>
+      <div class="grid">
+        <label>Volume A (mL) <input id="t_va" type="number" min="0" step="1" placeholder="es. 500" /></label>
+        <label>ABV A (%) <input id="t_aa" type="number" min="0" max="96" step="0.1" placeholder="es. 40" /></label>
+        <label>Volume B (mL) <input id="t_vb" type="number" min="0" step="1" placeholder="es. 300" /></label>
+        <label>ABV B (%) <input id="t_ab" type="number" min="0" max="96" step="0.1" placeholder="es. 0 (acqua)" /></label>
+      </div>
+      <div class="actions">
+        <button id="t_calc">Calculate</button>
+        <button class="secondary" id="t_reset">Reset</button>
+      </div>
+      <div id="t_out" class="output" aria-live="polite"></div>
+    </section>
+
+    <!-- Batching -->
+    <section id="tab-batch" class="tabpanel">
+      <h2>Batching (ml ↔ bottiglie)</h2>
+      <div class="grid">
+        <label>Batch volume (mL) <input id="b_total" type="number" min="0" step="1" placeholder="es. 5000" /></label>
+        <label>Formato bottiglia (mL) <input id="b_bottle" type="number" min="1" step="1" placeholder="700" /></label>
+        <label>Perdita % (headspace/sprechi) <input id="b_loss" type="number" min="0" max="30" step="0.1" placeholder="2" /></label>
+      </div>
+      <div class="actions">
+        <button id="b_calc">Calculate</button>
+        <button class="secondary" id="b_reset">Reset</button>
+      </div>
+      <div id="b_out" class="output" aria-live="polite"></div>
+    </section>
+
+    <!-- Cost per Drink -->
+    <section id="tab-cost" class="tabpanel">
+      <h2>Cost per Drink</h2>
+      <div class="grid">
+        <label>Costo bottiglia (€) <input id="c_price" type="number" min="0" step="0.01" placeholder="es. 20" /></label>
+        <label>Volume bottiglia (mL) <input id="c_volume" type="number" min="1" step="1" placeholder="700" /></label>
+        <label>Dose per drink (mL) <input id="c_pour" type="number" min="1" step="1" placeholder="50" /></label>
+        <label>Altri costi per drink (€) <input id="c_other" type="number" min="0" step="0.01" placeholder="sciroppi, garnish..." /></label>
+      </div>
+      <div class="actions">
+        <button id="c_calc">Calculate</button>
+        <button class="secondary" id="c_reset">Reset</button>
+      </div>
+      <div id="c_out" class="output" aria-live="polite"></div>
+    </section>
+
+    <!-- Ice Dilution -->
+    <section id="tab-ice" class="tabpanel">
+      <h2>Ice Dilution (stima rapida)</h2>
+      <div class="grid">
+        <label>ABV iniziale (%) <input id="i_ai" type="number" min="0" max="96" step="0.1" placeholder="es. 28" /></label>
+        <label>Target ABV di servizio (%) <input id="i_at" type="number" min="0" max="40" step="0.1" placeholder="es. 18" /></label>
+        <label>Volume iniziale (mL) <input id="i_vi" type="number" min="1" step="1" placeholder="es. 120" /></label>
+      </div>
+      <div class="actions">
+        <button id="i_calc">Estimate</button>
+        <button class="secondary" id="i_reset">Reset</button>
+      </div>
+      <div id="i_out" class="output" aria-live="polite"></div>
+      <details class="note"><summary>Nota</summary>
+        <p>Stima semplificata per stir/shake: usa bilancio ABV (come ABV dilution inversa). Raffreddamento non modellato.</p>
+      </details>
+    </section>
+
+    <!-- Brix -->
+    <section id="tab-brix" class="tabpanel">
+      <h2>Brix ↔︎ Sugar</h2>
+      <div class="card">
+        <h3>Target Brix → Zucchero da aggiungere</h3>
+        <div class="grid">
+          <label>Target Brix (%) <input id="bx_target" type="number" min="0" max="85" step="0.1" placeholder="es. 50" /></label>
+          <label>Volume acqua (mL) <input id="bx_water" type="number" min="0" step="1" placeholder="es. 500" /></label>
+        </div>
+        <div class="actions">
+          <button id="bx_calc">Calculate</button>
+          <button class="secondary" id="bx_reset">Reset</button>
+        </div>
+        <div id="bx_out" class="output" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Recipes -->
+    <section id="tab-recipes" class="tabpanel">
+      <h2>Ricette – 100 Cocktail</h2>
+      <div class="recipes-toolbar">
+        <input id="r_search" type="text" placeholder="Cerca nome/ingrediente..." />
+        <select id="r_spirit">
+          <option value="">Base spirit (tutti)</option>
+          <option>Gin</option><option>Vodka</option><option>Rum</option>
+          <option>Tequila</option><option>Whisky</option><option>Bourbon</option>
+          <option>Rye</option><option>Scotch</option><option>Brandy</option>
+          <option>Cognac</option><option>Pisco</option><option>Mezcal</option>
+          <option>Aperitivo</option><option>Wine</option><option>Beer</option>
+          <option>Baileys</option>
+        </select>
+      </div>
+      <div id="r_grid" class="recipe-grid" aria-live="polite"></div>
+      <p class="small">Lista IBA (2020) + classici extra; le ricette sono fornite come riferimento pratico per il bar.</p>
+    </section>
+  </main>
+
+  <footer class="container foot">
+    <small>© BereBeneLab – Static calculators & recipes. GitHub Pages.</small>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
